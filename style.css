@@ -34,8 +34,10 @@ body {
 .cardapio {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    flex-wrap: wrap;
     place-items: center;
+    gap: 20px;
+    justify-content: center;
     margin-top: 20px;
 }
 
@@ -65,4 +67,10 @@ body {
 .card p {
     color: rgb(1, 247, 1);
     font-weight: bold;
+}
+
+.descontoProduto {
+    color: white;
+    font-size: 2rem;
+
 }
